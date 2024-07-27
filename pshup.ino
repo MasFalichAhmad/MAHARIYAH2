@@ -11,7 +11,7 @@ const char* serverName = "panicbautton.my.id";
 const char* url = "/jumlah_pushup";
 
 //#define alamat_raspberry 0x0
-cost int address = 0x08;
+const int address = 0x08;
 
 void setup() {
   Serial.begin(115200);
